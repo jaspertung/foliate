@@ -1,0 +1,24 @@
+{
+  "name": "foliate",
+  "version": "1.0.0",
+  "description": "This is a website for a plant shop and tracker.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaspertung/foliate.git"
+  },
+  "author": "Jasper Tung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaspertung/foliate/issues"
+  },
+  "homepage": "https://github.com/jaspertung/foliate#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
