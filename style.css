@@ -1,0 +1,14 @@
+.masthead {
+    height: 90vh;
+    min-height: 500px;
+    background-image: url(img/header-plant.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  .masthead-text {
+      background-color: rgba(0, 0, 0, 0.5);
+      border: none;
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+  }
