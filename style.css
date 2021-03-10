@@ -1,3 +1,23 @@
+/* $main-text-color: #0e1b11;
+$color-primary: #23432a;
+$color-secondary: #fbdae9;
+$color-light: #f2f8f3;
+$color-mid: #e0e0e0;
+$color-dark: #0e1b11;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: 
+$header-font:  */
+
+/* footer */
+.site-footer {
+    background-color: #23432a;
+    padding: 20px 0;
+}
+.site-footer a, .site-footer h5 {
+    color: #f2f8f3;
+}
+/* index- masthead */
 .masthead {
     height: 90vh;
     min-height: 500px;
@@ -12,6 +32,42 @@
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
+/* index- best seller products */
 .product-card {
     border: none;
+}
+.product-card-img {
+    width: 100%;
+    height: 25vw;
+    width: 40vh;
+    object-fit: cover;
+}
+/* index- care guide */
+#alocasia {
+    position: absolute;
+    height: 300px;
+    top: 280px;
+    left: 30px;
+    z-index: 99;
+}
+#monstera {
+    position: absolute;
+    height: 230px;
+    right: 0px;
+    top: 0px;
+    z-index: 3;
+}
+#succulent {
+    position: absolute;
+    height: 300px;
+    top: 260px;
+    right: 0px;
+    z-index: 3;
+}
+#fiddle {
+    position: absolute;
+    height: 360px;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
 }
