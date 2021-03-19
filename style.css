@@ -93,3 +93,8 @@ $header-font:  */
     top: 0px;
     z-index: 2;
 }
+
+/* care guide */
+.lg-letter {
+    font-size: 15rem;
+}
