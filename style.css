@@ -15,7 +15,6 @@ $header-font:  */
     padding-bottom: 2rem;
 }
 
-
 /* footer */
 .site-footer {
     background-color: #23432a;
@@ -25,25 +24,37 @@ $header-font:  */
     color: #f2f8f3;
 }
 /* index- masthead */
-.masthead {
+/* .masthead {
     height: 90vh;
     min-height: 500px;
     background-image: url(img/header-plant.jpg);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
+} */
+#landing {
+    height: 100%;
+    background: url(img/header-plant.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
-.masthead-text {
+/* .masthead-text {
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
     padding-top: 5vh;
     padding-bottom: 5vh;
-}
+} */
+/* .landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+} */
 /* index- best seller products */
 .product-card {
     border: none;
 }
-
 .product-cart-button {
     position: absolute;
     height: 2.5rem;
@@ -58,40 +69,9 @@ $header-font:  */
     left: 30%;
     opacity: 0;
 }
-
 .product-card:hover input {
     opacity: 1;
     transition: 0.5s;
-}
-
-/* index- care guide */
-#alocasia {
-    position: absolute;
-    height: 300px;
-    top: 280px;
-    left: 30px;
-    z-index: 99;
-}
-#monstera {
-    position: absolute;
-    height: 230px;
-    right: 0px;
-    top: 0px;
-    z-index: 3;
-}
-#succulent {
-    position: absolute;
-    height: 300px;
-    top: 260px;
-    right: 0px;
-    z-index: 3;
-}
-#fiddle {
-    position: absolute;
-    height: 360px;
-    left: 0px;
-    top: 0px;
-    z-index: 2;
 }
 
 /* care guide */
